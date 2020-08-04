@@ -1,4 +1,6 @@
-<nav>
-  <a href="/">Inicio</a>
-  <a href="/biografia.html">Biografía</a>
-</nav>
+<section class="outer">
+  <nav class="downloads inner">
+    <a href="/" {% if page.url == "/" %}style="color: rgb(214, 35, 35);"{% endif %}>Inicio</a>
+    <a href="/biografia.html" {% if page.url == "/about.html" %}style="color: rgb(214, 35, 35);"{% endif %}>Biografía</a>
+  </nav>
+</section>
