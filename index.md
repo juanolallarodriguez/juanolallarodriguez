@@ -1,4 +1,7 @@
-# Juan Olalla Rodríguez
+---
+layout: default
+title: Juan B. Olalla Rodríguez
+---
 
 ## Welcome to GitHub Pages
 
