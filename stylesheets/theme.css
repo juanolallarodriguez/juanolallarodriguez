@@ -18,7 +18,6 @@ Theme Styles
 }
 
 body {
-  margin: 0;
   color:#373737;
   background: #212121;
   font-size: 18px;
@@ -220,7 +219,6 @@ Full-Width Styles
 *******************************************************************************/
 
 .outer {
-  width: 100%;
   padding: 0 10px;
 }
 
