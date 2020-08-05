@@ -265,6 +265,7 @@ nav {
 
 nav a {
   margin-right: 20px;
+  border-bottom: none;
 }
 
 #main_content {
