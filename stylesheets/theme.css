@@ -92,7 +92,7 @@ a {
   text-shadow: none;
 }
 
-a:hover, a:focus {border-bottom: 1px solid #0090ff;}
+a:hover, a:focus, a.active {border-bottom: 1px solid #0090ff;}
 
 
 em {
