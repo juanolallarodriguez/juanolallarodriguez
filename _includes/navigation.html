@@ -1,8 +1,6 @@
-<section class="outer">
-  <nav class="navigation inner">
-    <a href="/" {% if page.url == "/" %}style="color: rgb(214, 35, 35);"{% endif %}>Obras</a>
-    <a href="/historico.html" {% if page.url == "/historico.html" %}style="color: rgb(214, 35, 35);"{% endif %}>Histórico</a>
-    <a href="/biografia.html" {% if page.url == "/biografia.html" %}style="color: rgb(214, 35, 35);"{% endif %}>Biografía</a>
-    <a href="/contacto.html" {% if page.url == "/contacto.html" %}style="color: rgb(214, 35, 35);"{% endif %}>Contacto</a>
-  </nav>
-</section>
+<nav>
+  <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Obras</a>
+  <a href="/historico.html" {% if page.url == "/historico.html" %}class="active"{% endif %}>Histórico</a>
+  <a href="/biografia.html" {% if page.url == "/biografia.html" %}class="active"{% endif %}>Biografía</a>
+  <a href="/contacto.html" {% if page.url == "/contacto.html" %}class="active"{% endif %}>Contacto</a>
+</nav>
