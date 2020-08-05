@@ -257,7 +257,7 @@ header {
   background: none;
 }
 
-.navigation {
+nav {
   display: block;
   padding-left: 50px;
   color: #f2f2f2;
@@ -265,11 +265,8 @@ header {
   height: 70px;
 }
 
-.navigation a {
+nav a {
   margin-right: 20px;
-}
-.navigation a:hover {
-  text-decoration: underline solid #fff;
 }
 
 #main_content {
