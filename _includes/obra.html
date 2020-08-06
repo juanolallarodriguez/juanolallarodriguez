@@ -1,6 +1,6 @@
 {% assign obra = site.data.obras | where: "id", page.id | first %}
 {% if obra %}
-  <h2>Título: {{ obra.titulo }}</h2>
+  <h2>{{ obra.titulo }}</h2>
   <img src="{{ obra.imagen }}" />
   <div><a href="#">{{ obra.municipio }}</a></div>
   <p>{{ obra.y }}</p>
