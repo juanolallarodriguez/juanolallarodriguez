@@ -1,4 +1,4 @@
 <p>Esta es la obra con id: {{ page.id }}</p>
-{% for obra in site.data.obras | where: "id", page.id %}
+{% for obra in site.data.obras | where:"id",page.id %}
   <h2>Título: {{ obra.titulo }}</h2>
 {% endfor %}
