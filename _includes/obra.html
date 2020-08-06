@@ -1,1 +1,2 @@
-<p>Esta es la obra con id: {{ include.id }}</p>
+<p>Esta es la obra con código: {{ include.id }}</p>
+{{ site.data.obras | find: "id", include.id }}
