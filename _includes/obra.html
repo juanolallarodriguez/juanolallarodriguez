@@ -1,5 +1,11 @@
-<p>Esta es la obra con id: {{ page.id }}</p>
 {% assign obra = site.data.obras | where: "id", page.id | first %}
 {% if obra %}
   <h2>Título: {{ obra.titulo }}</h2>
+  <img src="{{ obra.imagen }}" />
+  <div><a href="#">{{ obra.municipio }}</a></div>
+  <p>{{ obra.y }}</p>
+  <p>{{ obra.descripcion }}</p>
+  {% if obra.precio %}
+    <p>En venta por {{ obra.precio }}</p>
+  {% endif %}
 {% endif %}
