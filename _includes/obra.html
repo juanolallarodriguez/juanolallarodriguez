@@ -1,5 +1,5 @@
-<p>Esta es la obra con id: {{ include.id }}</p>
-{% assign obra = site.data.obras | find: "id", include.id %}
+<p>Esta es la obra con id: {{ page.id }}</p>
+{% assign obra = {{ site.data.obras | find: "id", page.id }} %}
 {% if obra %}
-<h2>Título: {{ obra.titulo }}</h2>
+  <h2>Título: {{ obra.titulo }}</h2>
 {% endif %}
