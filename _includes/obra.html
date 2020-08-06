@@ -1,6 +1,4 @@
 <p>Esta es la obra con id: {{ page.id }}</p>
-{% assign nodo = site.data.obras | find: "id", page.id %}
-  <h2>Título: {{ nodo.titulo }}</h2>
-{% for mi_nodo in nodo %}
-<h2>Prueba: {{ mi_nodo.titulo }}</h2>
+{% for obra in site.data.obras | where: "id", page.id %}
+  <h2>Título: {{ obra.titulo }}</h2>
 {% endfor %}
