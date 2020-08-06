@@ -1,4 +1,5 @@
 <p>Esta es la obra con id: {{ page.id }}</p>
 {% assign obra = site.data.obras | where: "id", page.id | first %}
+{% if obra %}
   <h2>Título: {{ obra.titulo }}</h2>
-{% endfor %}
+{% endif %}
