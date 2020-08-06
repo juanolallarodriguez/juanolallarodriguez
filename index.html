@@ -7,9 +7,9 @@ title: Juan B. Olalla Rodríguez
   <p>Estamos preparando un nuevo sitio web para <a href="https://juanolallarodriguez.com/ultimasobras.htm">juanolallarodriguez.com</a></p>
 </div>
 <ul>
-{% for obra in site.data.art %}
+{% for obra in site.data.obras %}
   <li>
-    <img src="{{ obra.imagen }}" alt="{{ obra.titulo }}" />
+    <a href="{{ obra.ruta }}"><img src="{{ obra.imagen }}" alt="{{ obra.titulo }}" /></a>
     <p>{{ obra.resumen }}</p>
   </li>
 {% endfor %}
