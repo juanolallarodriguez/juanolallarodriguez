@@ -1,0 +1,11 @@
+{% assign term = site.data.taxonomias | where: "tid", page.tid | first %}
+{% assign padre = site.data.taxonomias | where: "tid", term.padre | first %}
+{% if padre %}
+  <div>
+    <a href="/{{ padre.ruta }}">{{ padre.nombre }}</a>
+    {% if padre.padre %}
+      {% capture padre_tid %}{{ padre.padre}}{% endcapture %}
+      {% include taxonomia_padre_padre.html tid=padre_tid %}
+    {% endif %}
+  </div>
+{% endif %}

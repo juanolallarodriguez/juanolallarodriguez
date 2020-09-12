@@ -1,16 +1,20 @@
 ---
+max: 10
 layout: default
 title: Juan B. Olalla Rodríguez
 ---
-<div>
-  <h2>Últimas obras</h2>
-  <p>Estamos preparando un nuevo sitio web para <a href="https://juanolallarodriguez.com/ultimasobras.htm">juanolallarodriguez.com</a></p>
-</div>
+<h2>Últimas obras</h2>
 <ul>
-{% for obra in site.data.obras %}
+{% assign obras = site.data.obras | sort: "y" | reverse %}
+{% if page.max %}{% assign obras_max = page.max %}{% else %}{% assign obras_max = 10 %}{% endif %}
+{% assign i = 1 %}
+{% for obra in obras %}
+  {% if i <= obras_max %}
   <li>
     <a href="{{ obra.ruta }}"><img src="{{ obra.imagen }}" alt="{{ obra.titulo }}" /></a>
     <p>{{ obra.resumen }}</p>
   </li>
+  {% endif %}
+  {% assign i = i | plus: 1  %}
 {% endfor %}
 </ul>
