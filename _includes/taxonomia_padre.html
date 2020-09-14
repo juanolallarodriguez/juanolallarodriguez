@@ -1,6 +1,6 @@
 {% assign term = site.data.taxonomias | where: "tid", page.tid | first %}
 {% assign padre = site.data.taxonomias | where: "tid", term.padre | first %}
-{% if padre %}
+{% if padre.tid == term.padre %}
   <div>
     <a href="/{{ padre.ruta }}"><strong>{{ padre.nombre }}</strong></a>
     {% if padre.padre %}
