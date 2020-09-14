@@ -1,7 +1,7 @@
 ---
 tid: 35
-permalink: /plumillas/aragon/huesca
+permalink: plumillas/aragon/huesca
 layout: default
 ---
 ## Plumillas de la provincia de Huesca
-{% include taxonomia_obras.html %}
+{% include taxonomy_content.html %}

@@ -1,15 +1,6 @@
-{% assign obras = site.data.obras | where: "tid", page.tid | sort: "y" | reverse %}
-{% assign obras_max = obras | size %}
-{% if page.max %}{% assign obras_max = page.max %}{% endif %}
-{% assign first_obra = page.ini | at_least: 1 %}
-{% assign last_obra = obras_max | plus: first_obra | minus: 1 %}
-{% assign i = 1 %}
+{% if include.tid %}{% assign tid = include.tid %}{% else %}{% assign tid = page.tid %}{% endif %}
+{% assign obras = site.data.obras | where: "tid", tid | sort: "fecha" | reverse %}
 {% for obra in obras %}
-  {% if i >= first_obra and i <= last_obra %}
-  <li>
-    <a href="/{{ obra.ruta }}"><img src="{{ obra.imagen }}" alt="{{ obra.titulo }}" /></a>
-    <p>{{ obra.resumen }}</p>
-  </li>
-  {% endif %}
-  {% assign i = i | plus: 1  %}
+  {% assign taxonomy_obras = taxonomy_obras | concat: obras %}
 {% endfor %}
+{% include taxonomia_hijos_obras.html tid=tid %}

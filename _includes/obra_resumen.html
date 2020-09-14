@@ -1,0 +1,6 @@
+{{ include.obra.titulo }}
+{% assign term = site.data.taxonomias | where: "tid", include.obra.tid | first %}
+{% if term %}
+  ({{ term.nombre }})
+{% endif %}
+{% include fecha.html fecha=include.obra.fecha %}

@@ -1,79 +1,200 @@
 tid,ruta,nombre,padre
-"1","expo-almuñecar","Oleos",
-"2","plumillas/varios","Varios",
-"3","plumillas/retratos","Retratos",
-"4","plumillas/alpujarras","Rincones de las Alpujarras",
-"5","plumillas/alemania","Alemania",
-"6","plumillas/chile","Chile",
-"7","plumillas/croacia","Croacia",
-"8","plumillas/francia","Francia",
-"9","plumillas/italia","Italia",
-"10","plumillas/portugal","Portugal",
-"11","plumillas/andalucia","Andalucía",
-"12","plumillas/aragon","Aragón",5
-"13","plumillas/asturias","Principado de Asturias",
-"14","plumillas/baleares","Islas Baleares",
-"15","plumillas/canarias","Canarias",
-"16","plumillas/cantabria","Cantabria",
-"17","plumillas/castilla-la-mancha","Castilla-La Mancha",
-"18","plumillas/castilla-y-leon","Castilla y León",
-"19","plumillas/catalunya","Cataluña",
-"20","plumillas/extremadura","Extremadura",
-"21","plumillas/galicia","Galicia",
-"22","plumillas/madrid","Comunidad de Madrid",
-"23","plumillas/murcia","Región de Murcia",
-"24","plumillas/navarra","Navarra",
-"25","plumillas/pais-vasco","País Vasco",
-"26","plumillas/comunidad-valenciana","Comunidad Valenciana",
-"27","plumillas/andalucia/almeria","Provincia de Almería",
-"28","plumillas/andalucia/cadiz","Provincia de Cádiz",
-"29","plumillas/andalucia/cordoba","Provincia de Córdoba",
-"30","plumillas/granada","Granada",
-"31","plumillas/andalucia/huelva","Provincia de Huelva",
-"32","plumillas/andalucia/jaen","Provincia de Jaén",
-"33","plumillas/andalucia/malaga","Provincia de Málaga",
-"34","plumillas/andalucia/sevilla","Provincia de Sevilla",
-"35","plumillas/aragon/huesca","Provincia de Huesca",12
-"36","plumillas/","",
-"37","plumillas/","",
-"38","plumillas/","",
-"39","plumillas/","",
-"40","plumillas/","",
-"41","plumillas/","",
-"42","plumillas/","",
-"43","plumillas/","",
-"44","plumillas/","",
-"45","plumillas/","",
-"46","plumillas/","",
-"47","plumillas/","",
-"48","plumillas/","",
-"49","plumillas/","",
-"50","plumillas/","",
-"51","plumillas/","",
-"52","plumillas/","",
-"53","plumillas/","",
-"54","plumillas/","",
-"55","plumillas/","",
-"56","plumillas/","",
-"57","plumillas/","",
-"58","plumillas/","",
-"59","plumillas/","",
-"60","plumillas/","",
-"61","plumillas/","",
-"62","plumillas/","",
-"63","plumillas/","",
-"64","plumillas/","",
-"65","plumillas/","",
-"66","plumillas/","",
-"67","plumillas/","",
-"68","plumillas/","",
-"69","plumillas/","",
-"70","plumillas/","",
-"666","plumillas/aragon/huesca/huesca","Huesca",35
-
-
-"t2","plumillas/granada/granada","Granada"
-"t3","plumillas/gerona/gerona","Gerona"
-"t4","plumillas/granada/almuñecar","Almuñécar","t6"
-"t5","plumillas/andalucia","Andalucía","t1"
-"t6","plumillas/andalucia/granada","Granada","t5"
+1,"expo-almuñecar","Oleos",
+2,"plumillas/varios","Varios",
+3,"plumillas/retratos","Retratos",
+4,"plumillas/alpujarras","Rincones de las Alpujarras",
+5,"plumillas/alemania","Alemania",
+6,"plumillas/chile","Chile",
+7,"plumillas/croacia","Croacia",
+8,"plumillas/francia","Francia",
+9,"plumillas/italia","Italia",
+10,"plumillas/portugal","Portugal",
+11,"plumillas/andalucia","Andalucía",
+12,"plumillas/aragon","Aragón",
+13,"plumillas/asturias","Principado de Asturias",
+14,"plumillas/baleares","Islas Baleares",
+15,"plumillas/canarias","Canarias",
+16,"plumillas/cantabria","Cantabria",
+17,"plumillas/castilla-la-mancha","Castilla-La Mancha",
+18,"plumillas/castilla-y-leon","Castilla y León",
+19,"plumillas/catalunya","Cataluña",
+20,"plumillas/extremadura","Extremadura",
+21,"plumillas/galicia","Galicia",
+22,"plumillas/madrid","Comunidad de Madrid",
+23,"plumillas/murcia","Región de Murcia",
+24,"plumillas/navarra","Navarra",
+25,"plumillas/pais-vasco","País Vasco",
+26,"plumillas/comunidad-valenciana","Comunidad Valenciana",
+27,"plumillas/andalucia/almeria","Provincia de Almería",
+28,"plumillas/andalucia/cadiz","Provincia de Cádiz",
+29,"plumillas/andalucia/cordoba","Provincia de Córdoba",
+30,"plumillas/granada","Granada",
+31,"plumillas/andalucia/huelva","Provincia de Huelva",
+32,"plumillas/andalucia/jaen","Provincia de Jaén",
+33,"plumillas/andalucia/malaga","Provincia de Málaga",
+34,"plumillas/andalucia/sevilla","Provincia de Sevilla",
+35,"plumillas/aragon/huesca","Provincia de Huesca",12
+36,"plumillas/aragon/huesca/huesca","Huesca",35
+37,"plumillas/aragon/huesca/larrede","Lárrede",35
+38,"plumillas/aragon/huesca/montanana","Montañana",35
+39,"plumillas/aragon/teruel","Provincia de Teruel",12
+40,"plumillas/aragon/teruel/teruel","Teruel",39
+41,"plumillas/aragon/teruel/olalla","Olalla",39
+42,"plumillas/aragon/teruel/valderrobles","Valderrobles",39
+43,"plumillas/aragon/teruel/zaragoza","Provincia de Zaragoza",12
+44,"plumillas/aragon/zaragoza/zaragoza","Zaragoza",43
+45,"plumillas/aragon/zaragoza/monasterio-de-piedra","Monasterio de Piedra",43
+46,"plumillas/asturias/oviedo","Oviedo",13
+47,"plumillas/asturias/aviles","Avilés",13
+48,"plumillas/asturias/gijon","Gijón",13
+49,"plumillas/asturias/cangas-de-onis","Cangas de Onís",13
+50,"plumillas/asturias/luarca","Luarca",13
+51,"plumillas/baleares/mallorca","Isla de Mallorca",14
+52,"plumillas/baleares/mallorca/palma","Palma de Mallorca",51
+53,"plumillas/baleares/mallorca/banyabulfar","Banyabulfar",51
+54,"plumillas/baleares/ibiza","Isla de Ibiza",14
+55,"plumillas/baleares/ibiza/ibiza","Ibiza",54
+56,"plumillas/baleares/formentera","Isla de Formentera",14
+57,"plumillas/baleares/formentera/formentera","Formentera",56
+58,"plumillas/canarias/fuerteventura","Isla de Fuerteventura",15
+59,"plumillas/canarias/fuerteventura/betancuria","Betancuria",58
+60,"plumillas/canarias/tenerife","Isla de Tenerife",15
+61,"plumillas/canarias/tenerife/san-cristobal-laguna","San Cristóbal de la Laguna",60
+62,"plumillas/canarias/gran-canaria","Isla de Gran Canaria",15
+63,"plumillas/canarias/gran-canaria/telde","Telde",62
+64,"plumillas/canarias/lanzarote","Isla de Lanzarote",15
+65,"plumillas/canarias/lanzarote/teguise","Teguise",64
+66,"plumillas/canarias/lanzarote/yaiza","Yaiza",64
+67,"plumillas/cantabria/santander","Santander",16
+68,"plumillas/cantabria/campoo-de-enmedio","Campoó de Enmedio",16
+69,"plumillas/cantabria/castro-urdiales","Castro Urdiales",16
+70,"plumillas/cantabria/potes","Potes",16
+71,"plumillas/cantabria/santillana-del-mar","Santillana del Mar",16
+72,"plumillas/cantabria/socobio","Socobio",16
+73,"plumillas/castilla-y-leon/avila","Provincia de Ávila",18
+74,"plumillas/castilla-y-leon/burgos","Provincia de Burgos",18
+75,"plumillas/castilla-y-leon/leon","Provincia de León",18
+76,"plumillas/castilla-y-leon/palencia","Provincia de Palencia",18
+77,"plumillas/castilla-y-leon/salamanca","Provincia de Salamanca",18
+78,"plumillas/castilla-y-leon/segovia","Provincia de Segovia",18
+79,"plumillas/castilla-y-leon/soria","Provincia de Soria",18
+80,"plumillas/castilla-y-leon/valladolid","Provincia de Valladolid",18
+81,"plumillas/castilla-y-leon/zamora","Provincia de Zamora",18
+82,"plumillas/castilla-y-leon/avila/avila","Ávila",73
+83,"plumillas/castilla-y-leon/burgos/burgos","Burgos",74
+84,"plumillas/castilla-y-leon/burgos/aranda-de-duero","Aranda de Duero",74
+85,"plumillas/castilla-y-leon/burgos/covarrubias","Covarrubias",74
+86,"plumillas/castilla-y-leon/burgos/merindad-de-valdivieso","Merindad de Valdivieso",74
+87,"plumillas/castilla-y-leon/burgos/penaranda-de-duero","Peñaranda de Duero",74
+88,"plumillas/castilla-y-leon/burgos/santo-domingo-silos","Santo Domingo de Silos",74
+89,"plumillas/castilla-y-leon/leon/leon","León",75
+90,"plumillas/castilla-y-leon/palencia/palencia","Palencia",76
+91,"plumillas/castilla-y-leon/palencia/fromista","Fromista",76
+92,"plumillas/castilla-y-leon/palencia/san-salvador-cantamuda","San Salvador de Cantamuda",76
+93,"plumillas/castilla-y-leon/salamanca/salamanca","Salamanca",77
+94,"plumillas/castilla-y-leon/segovia/segovia","Segovia",78
+95,"plumillas/castilla-y-leon/soria/soria","Soria",79
+96,"plumillas/castilla-y-leon/valladolid/valladolid","Valladolid",80
+97,"plumillas/castilla-y-leon/valladolid/fuensaldana","Fuensaldaña",80
+98,"plumillas/castilla-y-leon/valladolid/penafiel","Peñafiel",80
+99,"plumillas/castilla-y-leon/zamora/zamora","Zamora",81
+100,"plumillas/catalunya/barcelona","Provincia de Barcelona",19
+101,"plumillas/catalunya/lleida","Provincia de Lleida",19
+102,"plumillas/catalunya/girona","Provincia de Girona",19
+103,"plumillas/catalunya/tarragona","Provincia de Tarragona",19
+104,"plumillas/catalunya/barcelona/barcelona","Barcelona",100
+105,"plumillas/catalunya/barcelona/molins-de-rei","Molins de Rei",100
+106,"plumillas/catalunya/lleida/lleida","Lleida",101
+107,"plumillas/catalunya/girona/girona","Girona",102
+108,"plumillas/catalunya/girona/besalu","Besalú",102
+109,"plumillas/catalunya/girona/cadaques","Cadaqués",102
+110,"plumillas/catalunya/girona/tossa-de-mar","Tossa de Mar",102
+111,"plumillas/catalunya/tarragona/tarragona","Tarragona",103
+112,"plumillas/extremadura/caceres","Provincia de Cáceres",20
+113,"plumillas/extremadura/caceres/caceres","Cáceres",112
+114,"plumillas/extremadura/caceres/guadalupe","Guadalupe",112
+115,"plumillas/galicia/a-coruna","Provincia de A Coruña",21
+116,"plumillas/galicia/lugo","Provincia de Lugo",21
+117,"plumillas/galicia/pontevedra","Provincia de Pontevedra",21
+118,"plumillas/galicia/a-coruna/a-coruna","A Coruña",115
+119,"plumillas/galicia/lugo/lugo","Lugo",116
+120,"plumillas/galicia/pontevedra/pontevedra","Pontevedra",117
+121,"plumillas/galicia/pontevedra/baiona","Baiona",117
+122,"plumillas/galicia/pontevedra/combarro","Combarro",117
+123,"plumillas/galicia/pontevedra/forcarei","Forcarei",117
+124,"plumillas/galicia/pontevedra/vigo","Vigo",117
+125,"plumillas/castilla-la-mancha/albacete","Provincia de Albacete",17
+126,"plumillas/castilla-la-mancha/ciudad-real","Provincia de Ciudad Real",17
+127,"plumillas/castilla-la-mancha/cuenca","Provincia de Cuenca",17
+128,"plumillas/castilla-la-mancha/guadalajara","Provincia de Guadalajara",17
+129,"plumillas/castilla-la-mancha/toledo","Provincia de Toledo",17
+130,"plumillas/castilla-la-mancha/albacete/albacete","Albacete",125
+131,"plumillas/castilla-la-mancha/ciudad-real/ciudad-real","Ciudad Real",126
+132,"plumillas/castilla-la-mancha/cuenca-cuenca","Cuenca",127
+133,"plumillas/castilla-la-mancha/guadalajara","guadalajara",128
+134,"plumillas/castilla-la-mancha/toledo/toledo","Toledo",129
+135,"plumillas/castilla-la-mancha/guadalajara/siguenza","Sigüenza",128
+136,"plumillas/castilla-la-mancha/toledo/oropesa","Oropesa",129
+137,"plumillas/madrid/madrid","Madrid",22
+138,"plumillas/madrid/alcala-de-henares","Alcalá de Henares",22
+139,"plumillas/madrid/arroyomolinos","Arroyomolinos",22
+140,"plumillas/madrid/buitrago-de-lozoya","Buitrago de Lozoya",22
+141,"plumillas/murcia/murcia","Murcia",23
+142,"plumillas/murcia/cartagena","Cartagena",23
+143,"plumillas/navarra/puente-la-reina","Puente la Reina",24
+144,"plumillas/navarra/ujue","Ujué",24
+145,"plumillas/pais-vasco/alava","Álava",25
+146,"plumillas/pais-vasco/guipuzcoa","Guipuzcoa",25
+147,"plumillas/pais-vasco/alava/vitoria","Vitoria",145
+148,"plumillas/pais-vasco/alava/argandona","Argandoña",145
+149,"plumillas/pais-vasco/guipuzcoa/fuenterrabia","Fuenterrabía",146
+150,"plumillas/comunidad-valenciana/valencia","Provincia de Valencia",26
+151,"plumillas/comunidad-valenciana/valencia/valencia","Valencia",150
+152,"plumillas/comunidad-valenciana/alicante","Provincia de Alicante",26
+153,"plumillas/comunidad-valenciana/alicante/alicante","Alicante",152
+154,"plumillas/andalucia/almeria/pulpi","Pulpí",27
+155,"plumillas/granada/alhambra","La Alhambra",30
+156,"plumillas/","",
+157,"plumillas/","",
+158,"plumillas/","",
+159,"plumillas/","",
+160,"plumillas/","",
+161,"plumillas/","",
+162,"plumillas/","",
+163,"plumillas/","",
+164,"plumillas/","",
+165,"plumillas/","",
+166,"plumillas/","",
+167,"plumillas/","",
+168,"plumillas/","",
+169,"plumillas/","",
+170,"plumillas/","",
+171,"plumillas/","",
+172,"plumillas/","",
+173,"plumillas/","",
+174,"plumillas/","",
+175,"plumillas/","",
+176,"plumillas/","",
+177,"plumillas/","",
+178,"plumillas/","",
+179,"plumillas/","",
+180,"plumillas/","",
+181,"plumillas/","",
+182,"plumillas/","",
+183,"plumillas/","",
+184,"plumillas/","",
+185,"plumillas/","",
+186,"plumillas/","",
+187,"plumillas/","",
+188,"plumillas/","",
+189,"plumillas/","",
+190,"plumillas/","",
+191,"plumillas/","",
+192,"plumillas/","",
+193,"plumillas/","",
+194,"plumillas/","",
+195,"plumillas/","",
+196,"plumillas/","",
+197,"plumillas/","",
+198,"plumillas/","",
+199,"plumillas/","",

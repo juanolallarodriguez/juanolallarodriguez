@@ -1,7 +1,7 @@
 ---
-tid: t1
-permalink: /plumillas/alemania
+tid: 5
+permalink: plumillas/alemania
 layout: default
 ---
-## Alemania
-{% include taxonomia_obras.html %}
+## Plumillas de Alemania
+{% include taxonomy_content.html %}

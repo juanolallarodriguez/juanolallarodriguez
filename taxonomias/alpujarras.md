@@ -1,7 +1,7 @@
 ---
 tid: 4
-permalink: /plumillas/alpujarras
+permalink: plumillas/alpujarras
 layout: default
 ---
 ## Plumillas de rincones de las Alpujarras
-{% include taxonomia_obras.html %}
+{% include taxonomy_content.html %}

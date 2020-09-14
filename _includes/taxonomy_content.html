@@ -1,0 +1,11 @@
+{% include taxonomia_padre.html %}
+{% include taxonomia_obras.html %}
+{% assign uniq_obras = taxonomy_obras | uniq %}
+<ul class="art">
+{% for obra in uniq_obras %}
+  <li>
+    <a href="/{{ obra.ruta }}">{% include art.html src=obra.miniatura alt=obra.titulo %}</a>
+    <p>{% include obra_resumen.html obra=obra %}</p>
+  </li>
+{% endfor %}
+</ul>

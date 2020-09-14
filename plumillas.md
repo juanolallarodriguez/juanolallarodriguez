@@ -7,7 +7,7 @@ Aquí puedes encontrar el índice de la colección completa de mis dibujos a plu
 
 ## Granada y sus pueblos
 
-![Carmen de los Mártires](/images/historico/carmenmartires1_p.jpg)
+{% include art.html src="/images/historico/carmenmartires1_m.jpg" alt="Carmen de los Mártires" %}
 
 [Plumillas de __Granada__ y sus pueblos](/plumillas/granada)
 
@@ -15,7 +15,7 @@ La mayor parte de mi obra está dedicada a Granada, con más de trescientas plum
 
 ## Plumillas de Andalucía
 
-![Puerta de Córdoba](/images/historico/puerta_cordoba_m.jpg)
+{% include art.html src="/images/historico/puerta_cordoba.jpg" alt="Puerta de Córdoba" %}
 
 __[Almería](/plumillas/andalucia/almeria/almeria)__
  | Albánchez
@@ -29,8 +29,8 @@ __[Almería](/plumillas/andalucia/almeria/almeria)__
 
 __[Cádiz](/plumillas/andalucia/cadiz/cadiz)__
  | Grazalema
- | Puerto de santa María
- | Zahara de la sierra
+ | Puerto de Santa María
+ | Zahara de la Sierra
 
 __[Córdoba](/plumillas/andalucia/cordoba/cordoba)__
  | Almodóvar del río
@@ -64,12 +64,12 @@ __[Sevilla](/plumillas/andalucia/sevilla/sevilla)__
 
 ## Ciudades y pueblos de España
 
-![Combarro](/images/plumillas/combarro/puerto_m.jpg)
+{% include art.html src="/images/plumillas/combarro/puerto.jpg" alt="Combarro" %}
 
 ### Aragón
 __[Huesca](/plumillas/aragon/huesca/huesca)__
  | [Lárrede](/plumillas/aragon/huesca/larrede)
- | [Montañana](/plumillas/aragon/huesca/montañana)
+ | [Montañana](/plumillas/aragon/huesca/montanana)
  | __[Teruel](/plumillas/aragon/teruel/teruel)__
  | [Olalla](/plumillas/aragon/teruel/olalla)
  | [Valderrobres](/plumillas/aragon/teruel/valderrobres)
@@ -91,7 +91,7 @@ __[Oviedo](/plumillas/asturias/oviedo)__
 
 ### Canarias
 [Betancuria](/plumillas/canarias/fuerteventura/betancuria)
- | [San Cristobal de la Laguna](/plumillas/canarias/tenerife/san-cristobal-laguna)
+ | [San Cristóbal de la Laguna](/plumillas/canarias/tenerife/san-cristobal-laguna)
  | [Teguise](/plumillas/canarias/lanzarote/teguise)
  | [Telde](/plumillas/canarias/gran-canaria/telde)
  | [Yaiza](/plumillas/canarias/lanzarote/yaiza)
@@ -119,7 +119,7 @@ __[Albacete](/plumillas/castilla-la-mancha/albacete/albacete)__
  | [Aranda de Duero](/plumillas/castilla-leon/burgos/aranda-de-duero)
  | [Covarrubias](/plumillas/castilla-leon/burgos/covarrubias)
  | [Merindad de Valdivieso](/plumillas/castilla-leon/burgos/merindad-de-valdivieso)
- | [Peñaranda de Duero](/plumillas/castilla-leon/burgos/peñaranda-de-duero)
+ | [Peñaranda de Duero](/plumillas/castilla-leon/burgos/penaranda-de-duero)
  | [Santo Domingo de Silos](/plumillas/castilla-leon/burgos/santo-domingo-silos)
  | __[Leon](/plumillas/castilla-leon/leon/leon)__
  | __[Palencia](/plumillas/castilla-leon/palencia/palencia)__
@@ -129,8 +129,8 @@ __[Albacete](/plumillas/castilla-la-mancha/albacete/albacete)__
  | __[Segovia](/plumillas/castilla-leon/segovia/segovia)__
  | __[Soria](/plumillas/castilla-leon/soria/soria)__
  | __[Valladolid](/plumillas/castilla-leon/valladolid/valladolid)__
- | [Fuensaldaña](/plumillas/castilla-leon/valladolid/fuensaldaña)
- | [Peñafiel](/plumillas/castilla-leon/valladolid/peñafiel)
+ | [Fuensaldaña](/plumillas/castilla-leon/valladolid/fuensaldana)
+ | [Peñafiel](/plumillas/castilla-leon/valladolid/penafiel)
  | __[Zamora](/plumillas/castilla-leon/zamora/zamora)__
 
 ### Cataluña
@@ -148,13 +148,13 @@ __[Cáceres](/plumillas/extremadura/caceres/caceres)__
  | [Guadalupe](/plumillas/extremadura/caceres/guadalupe)
 
 ### Galicia
-__[A Coruña](/plumillas/galicia/a-coruña/a-coruña)__
+__[A Coruña](/plumillas/galicia/a-coruna/a-coruna)__
  | __[Lugo](/plumillas/galicia/lugo/lugo)__
  | __[Pontevedra](/plumillas/galicia/pontevedra/pontevedra)__
- | [Vigo](/plumillas/galicia/pontevedra/vigo)
  | [Baiona](/plumillas/galicia/pontevedra/baiona)
  | [Combarro](/plumillas/galicia/pontevedra/combarro)
  | [Forcarei](/plumillas/galicia/pontevedra/foncarei)
+ | [Vigo](/plumillas/galicia/pontevedra/vigo)
 
 ### Comunidad de Madrid
 __[Madrid](/plumillas/madrid/madrid)__
@@ -167,12 +167,12 @@ __[Madrid](/plumillas/madrid/madrid)__
   | [Cartagena](/plumillas/murcia/cartagena)
 
 ### Navarra
-[Puente la reina](/plumillas/navarra/puente-la-reina)
+[Puente la Reina](/plumillas/navarra/puente-la-reina)
  | [Ujué](/plumillas/navarra-ujue)
 
 ### País Vasco
 __[Vitoria](/plumillas/pais-vasco/alava/vitoria)__
-  | [Argandoña](/plumillas/pais-vasco/alava/argandoña)
+  | [Argandoña](/plumillas/pais-vasco/alava/argandona)
   | [Fuenterrabía](/plumillas/pais-vasco/guipuzcoa/fuenterrabia)
 
 ### Comunidad Valenciana
@@ -181,7 +181,7 @@ __[Alicante](/plumillas/comunidad-valenciana/alicante/alicante)__
 
 ## Plumillas de otros países
 
-![Florencia](/images/plumillas/italia/florencia1_m.jpg)
+{% include art.html src="/images/plumillas/italia/florencia1.jpg" alt="Florencia" %}
 
 [Alemania](/plumillas/alemania)
  | [Chile](/plumillas/chile)
@@ -192,7 +192,7 @@ __[Alicante](/plumillas/comunidad-valenciana/alicante/alicante)__
 
 ## Otros dibujos
 
-![Barcas varadas](/images/plumillas/1varios/otros/barcas_varadas_m.jpg)
+{% include art.html src="/images/plumillas/1varios/otros/barcas_varadas.jpg" alt="Barcas varadas" %}
 
 [Retratos](/plumillas/retratos)
  | [Rincones de las Alpujarras](/plumillas/alpujarras)
@@ -201,6 +201,6 @@ __[Alicante](/plumillas/comunidad-valenciana/alicante/alicante)__
 
 ## Pintura al óleo
 
-![Desnudo en blanco y negro](/images/expoalmuñecar/blanco_negro_p.jpg)
+{% include art.html src="/images/expoalmuñecar/blanco_negro_m.jpg" alt="Desnudo en blanco y negro" %}
 
 [Exposición de pintura al óleo (1984)](/expo-almuñecar)

@@ -1,7 +1,7 @@
 ---
 tid: 12
-permalink: /plumillas/aragon
+permalink: plumillas/aragon
 layout: default
 ---
 ## Plumillas de Aragón
-{% include taxonomia_obras.html %}
+{% include taxonomy_content.html %}

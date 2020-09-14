@@ -2,11 +2,14 @@
 {% if obra %}
   <h2>{{ obra.titulo }}</h2>
   <p>{% include obra_taxonomia.html %}</p>
-  <div><img src="{{ obra.imagen }}" /></div>
-  <div><a href="#">{{ obra.municipio }}</a></div>
-  <p>{{ obra.y }}</p>
-  <p>{{ obra.descripcion }}</p>
+  <div class="artwork-display">{% include art.html src=obra.imagen alt=obra.titulo %}</div>
+  <p><strong>Referencia:</strong> {{ obra.id }}</p>
+  <p><strong>Fecha:</strong> {% include fecha.html fecha=obra.fecha %}</p>
+  {% if obra.descripcion %}
+  <p><strong>Descripción:</strong> {{ obra.descripcion }}</p>
+  {% endif %}
   {% if obra.precio %}
-    <p>En venta por {{ obra.precio }} €</p>
+  <p><strong>Precio:</strong> {{ obra.precio }} €</p>
+  <p><strong>Forma de pago y envío:</strong> Consulta via e-mail a info@juanolallarodriguez.com con la referencia de la obra: {{ obra.id }}.</p>
   {% endif %}
 {% endif %}

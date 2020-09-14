@@ -3,6 +3,7 @@ permalink: /encargos
 layout: default
 ---
 # Encargos, publicaciones, referencias y noticias
+
 Si estás interesado en adquirir una plumilla, encargarme algún trabajo o cualquier otra consulta, escríbeme a:
 __info@juanolallarodriguez.com__
 

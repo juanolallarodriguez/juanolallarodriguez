@@ -1,4 +1,4 @@
 {% assign term = site.data.taxonomias | where: "tid", obra.tid | first %}
 {% if term %}
-  <a href="/{{ term.ruta }}">{{ term.nombre }}</a>
+  <a href="/{{ term.ruta }}"><strong>{{ term.nombre }}</strong></a>
 {% endif %}

@@ -1,0 +1,29 @@
+{% assign m = include.fecha | date: "%m" %}
+{% if m == "01" %}
+  {% assign fecha = "Enero " %}
+{% elsif m == "02" %}
+  {% assign fecha = "Febrero " %}
+{% elsif m == "03" %}
+  {% assign fecha = "Marzo " %}
+{% elsif m == "04" %}
+  {% assign fecha = "Abril " %}
+{% elsif m == "05" %}
+  {% assign fecha = "Mayo " %}
+{% elsif m == "06" %}
+  {% assign fecha = "Junio " %}
+{% elsif m == "07" %}
+  {% assign fecha = "Julio " %}
+{% elsif m == "08" %}
+  {% assign fecha = "Agosto " %}
+{% elsif m == "09" %}
+  {% assign fecha = "Septiembre " %}
+{% elsif m == "10" %}
+  {% assign fecha = "Octubre " %}
+{% elsif m == "11" %}
+  {% assign fecha = "Noviembre " %}
+{% elsif m == "12" %}
+  {% assign fecha = "Diciembre " %}
+{% endif %}
+
+{% assign y = include.fecha | date: "%Y" %}
+{{ fecha | append: y }}

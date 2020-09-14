@@ -1,0 +1,5 @@
+{% assign hijos = site.data.taxonomias | where: "padre", include.tid %}
+{% for hijo in hijos %}
+  {% include taxonomia_obras.html tid=hijo.tid %}
+  {% include taxonomia_hijos_obras.html tid=hijo.tid %}
+{% endfor %}

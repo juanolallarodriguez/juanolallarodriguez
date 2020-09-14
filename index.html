@@ -4,15 +4,15 @@ layout: default
 title: Juan B. Olalla Rodríguez
 ---
 <h2>Últimas obras</h2>
-<ul>
-{% assign obras = site.data.obras | sort: "y" | reverse %}
+<ul class="art">
+{% assign obras = site.data.obras | sort: "fecha" | reverse %}
 {% if page.max %}{% assign obras_max = page.max %}{% else %}{% assign obras_max = 10 %}{% endif %}
 {% assign i = 1 %}
 {% for obra in obras %}
   {% if i <= obras_max %}
   <li>
-    <a href="{{ obra.ruta }}"><img src="{{ obra.imagen }}" alt="{{ obra.titulo }}" /></a>
-    <p>{{ obra.resumen }}</p>
+    <a href="{{ obra.ruta }}">{% include art.html src=obra.miniatura alt=obra.titulo %}</a>
+    <p>{% include obra_resumen.html obra=obra %}</p>
   </li>
   {% endif %}
   {% assign i = i | plus: 1  %}
