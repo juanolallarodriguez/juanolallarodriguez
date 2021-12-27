@@ -9,11 +9,11 @@ Te presento mi colección de más de quinientos __dibujos a plumilla sobre Grana
 ## Granada, La Alhambra y sus rincones
 
 {% include art.html src="/images/plumillas/granada/carreradarro8.jpg" alt="Carrera del Darro" %}
-
-[La Alhambra](/plumillas/granada/alhambra)
- | [Albayzin](/plumillas/granada/albayzin)
- | [Realejo](/plumillas/granada/realejo)
+[Albayzin](/plumillas/granada/albayzin)
+ | [La Alhambra](/plumillas/granada/alhambra)
+ | [Centro](/plumillas/granada/centro)
  | [Carrera del Darro](/plumillas/granada/)
+ | [Realejo](/plumillas/granada/realejo)
 
 
 ## Pueblos de Granada de la A a la Z

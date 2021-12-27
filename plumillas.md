@@ -18,14 +18,14 @@ La mayor parte de mi obra está dedicada a Granada, con más de trescientas plum
 {% include art.html src="/images/historico/puerta_cordoba.jpg" alt="Puerta de Córdoba" %}
 
 __[Almería](/plumillas/andalucia/almeria/almeria)__
- | Albánchez
- | Alboloduy
- | Bayárcal
- | Fondón
- | Níjar
- | Ohanes
- | San Juan de los Terreros
- | Velez-Blanco
+ | [Albánchez](/plumillas/andalucia/almeria/albanchez)
+ | [Alboloduy](/plumillas/andalucia/almeria/alboloduy)
+ | [Bayárcal](/plumillas/andalucia/almeria/bayarcal)
+ | [Fondón](/plumillas/andalucia/almeria/fondon)
+ | [Níjar](/plumillas/andalucia/almeria/comarca-nijar)
+ | [Ohanes](/plumillas/andalucia/almeria/ohanes)
+ | [Pulpí](/plumillas/andalucia/almeria/pulpi)
+ | [Velez-Blanco](/plumillas/andalucia/almeria/velez-blanco)
 
 __[Cádiz](/plumillas/andalucia/cadiz/cadiz)__
  | Grazalema
