@@ -6,7 +6,7 @@
   <p><strong>Referencia:</strong> {{ obra.id }}</p>
   <p><strong>Fecha:</strong> {% include fecha.html fecha=obra.fecha %}</p>
   {% if obra.descripcion %}
-  <p><strong>Descripción:</strong> {{ obra.descripcion }}</p>
+  <p><strong>Descripción:</strong> Dibujo a plumilla original firmado, de tamaño {{ obra.dimensiones}} cm. sobre papel guarro de {{ obra.gramaje }}. de {{ obra.lienzo }} cm.</p>
   {% endif %}
   {% if obra.precio %}
   <p><strong>Precio:</strong> {{ obra.precio }} €</p>

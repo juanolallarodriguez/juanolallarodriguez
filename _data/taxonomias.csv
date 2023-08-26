@@ -1,5 +1,4 @@
 tid,ruta,nombre,padre
-1,expo-almu√±ecar,Oleos,
 2,plumillas/varios,Varios,
 3,plumillas/retratos,Retratos,
 4,plumillas/alpujarras,Rincones de las Alpujarras,
@@ -9,34 +8,34 @@ tid,ruta,nombre,padre
 8,plumillas/francia,Francia,
 9,plumillas/italia,Italia,
 10,plumillas/portugal,Portugal,
-11,plumillas/andalucia,Andaluc√≠a,
-12,plumillas/aragon,Arag√≥n,
+11,plumillas/andalucia,AndalucÌa,
+12,plumillas/aragon,AragÛn,
 13,plumillas/asturias,Principado de Asturias,
 14,plumillas/baleares,Islas Baleares,
 15,plumillas/canarias,Canarias,
 16,plumillas/cantabria,Cantabria,
 17,plumillas/castilla-la-mancha,Castilla-La Mancha,
-18,plumillas/castilla-leon,Castilla y Le√≥n,
-19,plumillas/catalunya,Catalu√±a,
+18,plumillas/castilla-leon,Castilla y LeÛn,
+19,plumillas/catalunya,CataluÒa,
 20,plumillas/extremadura,Extremadura,
 21,plumillas/galicia,Galicia,
 22,plumillas/madrid,Comunidad de Madrid,
-23,plumillas/murcia,Regi√≥n de Murcia,
+23,plumillas/murcia,RegiÛn de Murcia,
 24,plumillas/navarra,Navarra,
-25,plumillas/pais-vasco,Pa√≠s Vasco,
+25,plumillas/pais-vasco,PaÌs Vasco,
 26,plumillas/comunidad-valenciana,Comunidad Valenciana,
-27,plumillas/andalucia/almeria,Provincia de Almer√≠a,
-28,plumillas/andalucia/cadiz,Provincia de C√°diz,
-29,plumillas/andalucia/cordoba,Provincia de C√≥rdoba,
+27,plumillas/andalucia/almeria,Provincia de AlmerÌa,
+28,plumillas/andalucia/cadiz,Provincia de C·diz,
+29,plumillas/andalucia/cordoba,Provincia de CÛrdoba,
 30,plumillas/granada,Granada,
 31,plumillas/andalucia/huelva,Provincia de Huelva,
-32,plumillas/andalucia/jaen,Provincia de Ja√©n,
-33,plumillas/andalucia/malaga,Provincia de M√°laga,
+32,plumillas/andalucia/jaen,Provincia de JaÈn,
+33,plumillas/andalucia/malaga,Provincia de M·laga,
 34,plumillas/andalucia/sevilla,Provincia de Sevilla,
 35,plumillas/aragon/huesca,Provincia de Huesca,12
 36,plumillas/aragon/huesca/huesca,Huesca,35
-37,plumillas/aragon/huesca/larrede,L√°rrede,35
-38,plumillas/aragon/huesca/montanana,Monta√±ana,35
+37,plumillas/aragon/huesca/larrede,L·rrede,35
+38,plumillas/aragon/huesca/montanana,MontaÒana,35
 39,plumillas/aragon/teruel,Provincia de Teruel,12
 40,plumillas/aragon/teruel/teruel,Teruel,39
 41,plumillas/aragon/teruel/olalla,Olalla,39
@@ -45,9 +44,9 @@ tid,ruta,nombre,padre
 44,plumillas/aragon/zaragoza/zaragoza,Zaragoza,43
 45,plumillas/aragon/zaragoza/monasterio-de-piedra,Monasterio de Piedra,43
 46,plumillas/asturias/oviedo,Oviedo,13
-47,plumillas/asturias/aviles,Avil√©s,13
-48,plumillas/asturias/gijon,Gij√≥n,13
-49,plumillas/asturias/cangas-de-onis,Cangas de On√≠s,13
+47,plumillas/asturias/aviles,AvilÈs,13
+48,plumillas/asturias/gijon,GijÛn,13
+49,plumillas/asturias/cangas-de-onis,Cangas de OnÌs,13
 50,plumillas/asturias/luarca,Luarca,13
 51,plumillas/baleares/mallorca,Isla de Mallorca,14
 52,plumillas/baleares/mallorca/palma,Palma de Mallorca,51
@@ -59,35 +58,35 @@ tid,ruta,nombre,padre
 58,plumillas/canarias/fuerteventura,Isla de Fuerteventura,15
 59,plumillas/canarias/fuerteventura/betancuria,Betancuria,58
 60,plumillas/canarias/tenerife,Isla de Tenerife,15
-61,plumillas/canarias/tenerife/san-cristobal-laguna,San Crist√≥bal de la Laguna,60
+61,plumillas/canarias/tenerife/san-cristobal-laguna,San CristÛbal de la Laguna,60
 62,plumillas/canarias/gran-canaria,Isla de Gran Canaria,15
 63,plumillas/canarias/gran-canaria/telde,Telde,62
 64,plumillas/canarias/lanzarote,Isla de Lanzarote,15
 65,plumillas/canarias/lanzarote/teguise,Teguise,64
 66,plumillas/canarias/lanzarote/yaiza,Yaiza,64
 67,plumillas/cantabria/santander,Santander,16
-68,plumillas/cantabria/campoo-de-enmedio,Campo√≥ de Enmedio,16
+68,plumillas/cantabria/campoo-de-enmedio,CampoÛ de Enmedio,16
 69,plumillas/cantabria/castro-urdiales,Castro Urdiales,16
 70,plumillas/cantabria/potes,Potes,16
 71,plumillas/cantabria/santillana-del-mar,Santillana del Mar,16
 72,plumillas/cantabria/socobio,Socobio,16
-73,plumillas/castilla-leon/avila,Provincia de √Åvila,18
+73,plumillas/castilla-leon/avila,Provincia de ¡vila,18
 74,plumillas/castilla-leon/burgos,Provincia de Burgos,18
-75,plumillas/castilla-leon/leon,Provincia de Le√≥n,18
+75,plumillas/castilla-leon/leon,Provincia de LeÛn,18
 76,plumillas/castilla-leon/palencia,Provincia de Palencia,18
 77,plumillas/castilla-leon/salamanca,Provincia de Salamanca,18
 78,plumillas/castilla-leon/segovia,Provincia de Segovia,18
 79,plumillas/castilla-leon/soria,Provincia de Soria,18
 80,plumillas/castilla-leon/valladolid,Provincia de Valladolid,18
 81,plumillas/castilla-leon/zamora,Provincia de Zamora,18
-82,plumillas/castilla-leon/avila/avila,√Åvila,73
+82,plumillas/castilla-leon/avila/avila,¡vila,73
 83,plumillas/castilla-leon/burgos/burgos,Burgos,74
 84,plumillas/castilla-leon/burgos/aranda-de-duero,Aranda de Duero,74
 85,plumillas/castilla-leon/burgos/covarrubias,Covarrubias,74
 86,plumillas/castilla-leon/burgos/merindad-de-valdivieso,Merindad de Valdivieso,74
-87,plumillas/castilla-leon/burgos/penaranda-de-duero,Pe√±aranda de Duero,74
+87,plumillas/castilla-leon/burgos/penaranda-de-duero,PeÒaranda de Duero,74
 88,plumillas/castilla-leon/burgos/santo-domingo-silos,Santo Domingo de Silos,74
-89,plumillas/castilla-leon/leon/leon,Le√≥n,75
+89,plumillas/castilla-leon/leon/leon,LeÛn,75
 90,plumillas/castilla-leon/palencia/palencia,Palencia,76
 91,plumillas/castilla-leon/palencia/fromista,Fromista,76
 92,plumillas/castilla-leon/palencia/san-salvador-cantamuda,San Salvador de Cantamuda,76
@@ -95,8 +94,8 @@ tid,ruta,nombre,padre
 94,plumillas/castilla-leon/segovia/segovia,Segovia,78
 95,plumillas/castilla-leon/soria/soria,Soria,79
 96,plumillas/castilla-leon/valladolid/valladolid,Valladolid,80
-97,plumillas/castilla-leon/valladolid/fuensaldana,Fuensalda√±a,80
-98,plumillas/castilla-leon/valladolid/penafiel,Pe√±afiel,80
+97,plumillas/castilla-leon/valladolid/fuensaldana,FuensaldaÒa,80
+98,plumillas/castilla-leon/valladolid/penafiel,PeÒafiel,80
 99,plumillas/castilla-leon/zamora/zamora,Zamora,81
 100,plumillas/catalunya/barcelona,Provincia de Barcelona,19
 101,plumillas/catalunya/lleida,Provincia de Lleida,19
@@ -106,17 +105,17 @@ tid,ruta,nombre,padre
 105,plumillas/catalunya/barcelona/molins-de-rei,Molins de Rei,100
 106,plumillas/catalunya/lleida/lleida,Lleida,101
 107,plumillas/catalunya/girona/girona,Girona,102
-108,plumillas/catalunya/girona/besalu,Besal√∫,102
-109,plumillas/catalunya/girona/cadaques,Cadaqu√©s,102
+108,plumillas/catalunya/girona/besalu,Besal˙,102
+109,plumillas/catalunya/girona/cadaques,CadaquÈs,102
 110,plumillas/catalunya/girona/tossa-de-mar,Tossa de Mar,102
 111,plumillas/catalunya/tarragona/tarragona,Tarragona,103
-112,plumillas/extremadura/caceres,Provincia de C√°ceres,20
-113,plumillas/extremadura/caceres/caceres,C√°ceres,112
+112,plumillas/extremadura/caceres,Provincia de C·ceres,20
+113,plumillas/extremadura/caceres/caceres,C·ceres,112
 114,plumillas/extremadura/caceres/guadalupe,Guadalupe,112
-115,plumillas/galicia/a-coruna,Provincia de A Coru√±a,21
+115,plumillas/galicia/a-coruna,Provincia de A CoruÒa,21
 116,plumillas/galicia/lugo,Provincia de Lugo,21
 117,plumillas/galicia/pontevedra,Provincia de Pontevedra,21
-118,plumillas/galicia/a-coruna/a-coruna,A Coru√±a,115
+118,plumillas/galicia/a-coruna/a-coruna,A CoruÒa,115
 119,plumillas/galicia/lugo/lugo,Lugo,116
 120,plumillas/galicia/pontevedra/pontevedra,Pontevedra,117
 121,plumillas/galicia/pontevedra/baiona,Baiona,117
@@ -133,68 +132,169 @@ tid,ruta,nombre,padre
 132,plumillas/castilla-la-mancha/cuenca-cuenca,Cuenca,127
 133,plumillas/castilla-la-mancha/guadalajara,guadalajara,128
 134,plumillas/castilla-la-mancha/toledo/toledo,Toledo,129
-135,plumillas/castilla-la-mancha/guadalajara/siguenza,Sig√ºenza,128
+135,plumillas/castilla-la-mancha/guadalajara/siguenza,Sig¸enza,128
 136,plumillas/castilla-la-mancha/toledo/oropesa,Oropesa,129
 137,plumillas/madrid/madrid,Madrid,22
-138,plumillas/madrid/alcala-de-henares,Alcal√° de Henares,22
+138,plumillas/madrid/alcala-de-henares,Alcal· de Henares,22
 139,plumillas/madrid/arroyomolinos,Arroyomolinos,22
 140,plumillas/madrid/buitrago-de-lozoya,Buitrago de Lozoya,22
 141,plumillas/murcia/murcia,Murcia,23
 142,plumillas/murcia/cartagena,Cartagena,23
 143,plumillas/navarra/puente-la-reina,Puente la Reina,24
-144,plumillas/navarra/ujue,Uju√©,24
-145,plumillas/pais-vasco/alava,√Ålava,25
+144,plumillas/navarra/ujue,UjuÈ,24
+145,plumillas/pais-vasco/alava,¡lava,25
 146,plumillas/pais-vasco/guipuzcoa,Guipuzcoa,25
 147,plumillas/pais-vasco/alava/vitoria,Vitoria,145
-148,plumillas/pais-vasco/alava/argandona,Argando√±a,145
-149,plumillas/pais-vasco/guipuzcoa/fuenterrabia,Fuenterrab√≠a,146
+148,plumillas/pais-vasco/alava/argandona,ArgandoÒa,145
+149,plumillas/pais-vasco/guipuzcoa/fuenterrabia,FuenterrabÌa,146
 150,plumillas/comunidad-valenciana/valencia,Provincia de Valencia,26
 151,plumillas/comunidad-valenciana/valencia/valencia,Valencia,150
 152,plumillas/comunidad-valenciana/alicante,Provincia de Alicante,26
 153,plumillas/comunidad-valenciana/alicante/alicante,Alicante,152
-154,plumillas/andalucia/almeria/pulpi,Pulp√≠,27
+154,plumillas/andalucia/almeria/pulpi,PulpÌ,27
 155,plumillas/granada/alhambra,La Alhambra,30
-156,plumillas/andalucia/almeria/comarca-nijar,N√≠jar,27
-157,plumillas/andalucia/almeria/almeria,Almer√≠a,27
+156,plumillas/andalucia/almeria/comarca-nijar,NÌjar,27
+157,plumillas/andalucia/almeria/almeria,AlmerÌa,27
 158,plumillas/andalucia/almeria/ohanes,Ohanes,27
-159,plumillas/andalucia/almeria/fondon,Fond√≥n,27
+159,plumillas/andalucia/almeria/fondon,FondÛn,27
 160,plumillas/andalucia/almeria/alboloduy,Alboloduy,27
-161,plumillas/andalucia/almeria/bayarcal,Bay√°rcal,27
-162,plumillas/andalucia/almeria/velez-blanco,V√©lez Blanco,27
-163,plumillas/andalucia/almeria/albanchez,Alb√°nchez,27
-164,plumillas/,,
-165,plumillas/,,
-166,plumillas/,,
-167,plumillas/,,
-168,plumillas/,,
-169,plumillas/,,
-170,plumillas/,,
-171,plumillas/,,
-172,plumillas/,,
-173,plumillas/,,
+161,plumillas/andalucia/almeria/bayarcal,Bay·rcal,27
+162,plumillas/andalucia/almeria/velez-blanco,VÈlez Blanco,27
+163,plumillas/andalucia/almeria/albanchez,Alb·nchez,27
+164,,,
+165,plumillas/andalucia/cadiz/cadiz,C·diz,28
+166,plumillas/andalucia/cadiz/puerto-santa-maria,Puerto de Santa MarÌa,28
+167,,,
+168,,,
+169,,,
+170,,,
+171,,,
+172,,,
+173,,,
 174,plumillas/castilla-la-mancha/albacete/albacete,Albacete,126
-175,plumillas/,,
+175,,,
 176,plumillas/granada/centro,Granada Centro,30
-177,plumillas/,,
-178,plumillas/,,
-179,plumillas/,,
-180,plumillas/,,
-181,plumillas/,,
-182,plumillas/,,
-183,plumillas/,,
-184,plumillas/,,
-185,plumillas/,,
-186,plumillas/,,
-187,plumillas/,,
-188,plumillas/,,
-189,plumillas/,,
-190,plumillas/,,
-191,plumillas/,,
-192,plumillas/,,
-193,plumillas/,,
-194,plumillas/,,
-195,plumillas/,,
-196,plumillas/,,
-197,plumillas/,,
-198,plumillas/,,
-199,plumillas/,,
+177,,,
+178,,,
+179,,,
+180,,,
+181,,,
+182,,,
+183,,,
+184,,,
+185,,,
+186,,,
+187,,,
+188,,,
+189,,,
+190,,,
+191,,,
+192,,,
+193,,,
+194,,,
+195,,,
+196,,,
+197,,,
+198,,,
+199,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+1,expo-almuÒecar,Oleos,

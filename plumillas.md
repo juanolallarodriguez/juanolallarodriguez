@@ -1,5 +1,5 @@
 ---
-permalink: /plumillas
+permalink: /plumillas-coleccion
 layout: default
 ---
 # Colección completa de plumillas y otras obras
