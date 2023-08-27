@@ -5,9 +5,12 @@
   <div class="artwork-display">{% include art.html src=obra.imagen alt=obra.titulo %}</div>
   <p><strong>Referencia:</strong> {{ obra.id }}</p>
   <p><strong>Fecha:</strong> {% include fecha.html fecha=obra.fecha %}</p>
-  {% if obra.descripcion %}
-  <p><strong>Descripción:</strong> Dibujo a plumilla original firmado, de tamaño {{ obra.dimensiones}} cm. sobre papel guarro de {{ obra.gramaje }}. de {{ obra.lienzo }} cm.</p>
-  {% endif %}
+  <p><strong>Descripción:</strong>
+    {% if obra.descripcion %}
+      {{ obra.descripcion }}
+    {% else %}
+      Dibujo a plumilla original firmado{% if obra.dimensiones %}, de tamaño {{ obra.dimensiones}} cm. sobre papel Guarro de {{ obra.gramaje }} gr. de {{ obra.lienzo }} cm{% endif %}.</p>
+    {% endif %}
   {% if obra.precio %}
   <p><strong>Precio:</strong> {{ obra.precio }} €</p>
   <p><strong>Forma de pago y envío:</strong> Consulta via e-mail a info@juanolallarodriguez.com con la referencia de la obra: {{ obra.id }}.</p>
